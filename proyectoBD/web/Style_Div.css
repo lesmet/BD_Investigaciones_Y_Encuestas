@@ -1,39 +1,43 @@
 #header {
     text-align: center;
-    border-style: groove;
-}
+ }
 body{
-    background-image: url("img/galaxia.jpg");
-
+background-color: #707070 ;
 }
 #menu{
     width: 99%;
     height:10%;
-    border: dashed;
-    border-color: aqua;
+
     float: left;
     margin: 0.5%;
+
 }
-#B1{
-    float: right;
-    color: brown;
-margin: 0.5%;
-}
+
+
 h1{
     text-align: center;
     color: crimson;
 }
+
 #login{
+    float: right;
     width: 25%;
     height:25%;
     margin: 0.5%;
-border-color: chartreuse;
-    border:groove ;
+
+  box-shadow: 10px 10px 50px #181818  ;
 }
 #cont{
     width: 100%;
     height:100%;
-    border: ridge;
-    border-color: darkkhaki;
+
     margin-bottom: 0.5%;
 }
+ #Registrar{
+     float: left;
+     width: 25%;
+     height:30%;
+     margin: 0.5%;
+     box-shadow: 10px 10px 50px #181818  ;
+
+ }

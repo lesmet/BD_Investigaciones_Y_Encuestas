@@ -1,0 +1,21 @@
+
+
+#B_Buscar{
+
+    color: brown;
+    margin: 0.5%;
+}
+
+
+button{
+      background-color: aqua;
+      border-color: aquamarine;
+  }
+#B_Registrar{
+    float: right;
+
+
+}
+#B_Iniciar_Sesion{
+    float: right;
+}

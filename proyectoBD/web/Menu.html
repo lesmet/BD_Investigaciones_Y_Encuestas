@@ -1,7 +1,14 @@
 
 
 <div id="menu">
-    <button id="B1" name="prov" type="submit" onmouseover="mOver(this)" onmouseout="mOut(this)"> VOLVER A PAGINA PRINCIPAL </button>
+
+<form action="Validaciones_Usuario.php" method="post">
+    <input id="t_Buscar" type="text" name="tex_Buscar" value="Buscar..." onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}" />
+    <button id="B_Buscar" name="Buscar" type="submit" onmouseover="mOver(this)" onmouseout="mOut(this)"  >
+        <span style="cursor:pointer">
+Buscar
+       </span><br> </button>
+</form>
 
 </div>
 
