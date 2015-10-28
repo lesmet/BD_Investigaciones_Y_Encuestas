@@ -41,3 +41,18 @@ h1{
      box-shadow: 10px 10px 50px #181818  ;
 
  }
+ #Menu_B{
+     float: left;
+     width: 25%;
+     height:30%;
+     margin: 0.5%;
+     box-shadow: 10px 10px 50px #181818  ;
+
+ }
+ #Creacion{
+     float: right;
+     width: 25%;
+     height:25%;
+     margin: 0.5%;
+     box-shadow: 10px 10px 50px #181818  ;
+ }
