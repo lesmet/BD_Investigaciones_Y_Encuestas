@@ -91,36 +91,13 @@ session_start();
      </div>
         <?php
     }else{
-        ?>
-        <div id="Menu_B">
-        <h1>BUSQUEDA</h1></br>
-        <form action="Validacion_General.php" method="post">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp <input id="t_Buscar" type="text" name="tex_Buscar" value="Buscar..." onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}" />
-            <button id="B_Buscar" name="Buscar" type="submit" onmouseover="mOver(this)" onmouseout="mOut(this)"  >
-        <span style="cursor:pointer">
-Buscar
-       </span><br> </button></br></br></br>
-        </form>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Index.php">Todos los Proyectos</a></br></br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Index.php">Ultimos Proyectos</a></br></br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Index.php">Ultimas Encuestas</a></br></br></br>
-           </div>
-        <div id="Creacion">
-            <h1>EDICION</h1></br>
-            <form action="Validacion_General.php" method="post">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="B_Crear_P" name="Crear_P" type="submit" onmouseover="mOver(this)" onmouseout="mOut(this)"  >
-        <span style="cursor:pointer">
-Crear nuevo Proyecto
-       </span><br> </button></br></br></br>
-
-            </form>
-            &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Index.php">Editar Proyecto </a></br></br></br>
-            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Index.php">Editar Encuesta</a></br></br></br>
-        </div>
-        <?php
+        include "Menu_B.html";
+        include "Busqueda_Edicion.php";
+        include "Menu_E.html";
 
     }
          ?>
+
 </div>
 
 </div>
